@@ -1,0 +1,8 @@
+class Point:
+
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
+
+    def display(self):
+        return f"Point({self.x}, {self.y})"    
